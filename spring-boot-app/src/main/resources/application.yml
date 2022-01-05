@@ -1,15 +1,15 @@
 security:
   oauth2:
     client:
-      clientId: your-onelogin-oidc-app-client-id
-      clientSecret: your-onelogin-oidc-app-client-secret
-      accessTokenUri: https://<subdomain>.onelogin.com/oidc/2/token
-      userAuthorizationUri: https://<subdomain>.onelogin.com/oidc/2/auth
+      clientId: c921d380-501b-013a-58c2-024a55651bcb202198
+      clientSecret: 5b2a9277473a66d8f4b44edfea00c0da93cd61bfb42c9081d24d1b269a0e6a50
+      accessTokenUri: https://tahir-dev.onelogin.com/oidc/2/token
+      userAuthorizationUri: https://tahir-dev.onelogin.com/oidc/2/auth
       tokenName: access_token
       authorizedGrantTypes: authorization_code
       scope: openid,profile,email
     resource:
-      userInfoUri: https://<subdomain>.onelogin.com/oidc/2/me
+      userInfoUri: https://tahir-dev.onelogin.com/oidc/2/me
 
 server:
   port : 8081
